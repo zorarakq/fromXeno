@@ -1406,14 +1406,6 @@ local function hmac(hash_func, key, message, AsBinary)
 	end
 end
 
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = ".gg/getzorara",
-	Text = "Thanks to Xeno for the base",
-    Icon = "rbxassetid://18949579731"
-})
-                       
-print("Zorara is ready for execution")
-
 local sha = {
 	md5 = md5,
 	sha1 = sha1,
