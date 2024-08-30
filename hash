@@ -1484,3 +1484,11 @@ block_size_for_HMAC = {
 }
 
 return sha
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Zorara Injected",
+	Text = "Join discord.gg/getzorara",
+    Icon = "rbxassetid://18949579731"
+})
+                       
+print("Zorara is ready for execution")
